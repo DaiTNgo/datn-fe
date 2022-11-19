@@ -4,7 +4,7 @@ import App from './App';
 import './index.css';
 import { io } from 'socket.io-client';
 
-const socket = io('https://dnt-be.onrender.com');
+const socket = io('dnt-be.onrender.com');
 window.socket = socket;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
